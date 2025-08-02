@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.div1 {
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(112, 208, 240), rgb(209, 236, 245));
+  display: flex;
+}
+.div1-left {
+  width: 55%;
+  line-height: 90px;
+}
+
+.div1-left > h4 {
+  padding: 60px 0 0 100px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.div1-left > h1 {
+  margin: 200px 0 0 120px;
+  font-size: 80px;
+  font-weight: 300;
+}
+.div1-left > h2 {
+  margin-left: 120px;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.btn1 {
+  margin: 50px 0 0 120px;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+}
+.btn2 {
+  margin-left: 30px;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(196, 231, 242);
+}
+.div1-right {
+  width: 45%;
+}
+.div1-right > img {
+  padding-top: 180px;
+}
+
+.section1 {
+  height: 100vh;
+  /* margin: 10px; */
+  background: linear-gradient(120deg, rgb(125, 212, 241), rgb(234, 237, 237));
+  display: flex;
+}
+
+.section1-left {
+  width: 50%;
+}
+
+.section1-left > h2 {
+  padding: 280px 0 0 120px;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.section1-left > p {
+  font-size: 30px;
+  padding-top: 40px;
+  margin-left: 120px;
+}
+
+.section1-right > img {
+  width: 600px;
+  height: 700px;
+  margin: 50px 0 0 50px;
+  border-radius: 0 170px 0 0;
+}
+
+.section2 {
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(112, 208, 240), rgb(216, 229, 233));
+
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+}
+
+.section2 > div > h2 {
+  text-align: center;
+  padding-top: 80px;
+  font-weight: 300;
+  font-size: 45px;
+}
+
+.pocket {
+  display: flex;
+}
+
+.pocket-left {
+  height: 400px;
+  width: 280px;
+  background-color: white;
+  margin: 80px 0 0 180px;
+  border: 20px solid white;
+  border-radius: 0 70px 0 70px;
+  overflow: hidden;
+}
+
+.pocket-mid {
+  height: 400px;
+  width: 280px;
+  background-color: #fff;
+  margin: 80px 0 0 120px;
+  border: 20px solid white;
+  border-radius: 0 70px 0 70px;
+  overflow: hidden;
+}
+
+.pocket-right {
+  height: 400px;
+  width: 280px;
+  background-color: #fff;
+  margin: 80px 0 0 120px;
+  border: 20px solid white;
+  border-radius: 0 70px 0 70px;
+  overflow: hidden;
+}
+
+.pocket-img1 {
+  height: 200px;
+  width: 280px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 15px;
+}
+.pocket-p1 {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.pocket-img2 {
+  height: 200px;
+  width: 280px;
+}
+.pocket-p2 {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 8px;
+  font-weight: 300;
+}
+
+.pocket-img3 {
+  height: 200px;
+  width: 280px;
+}
+
+.Section2-btn {
+  width: 180px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+  margin: 50px 0 0 650px;
+}
+
+.section3 {
+  height: 100vh;
+  background: linear-gradient(120deg, rgb(112, 208, 240), rgb(230, 214, 183));
+  display: flex;
+}
+
+.section3-left {
+  width: 50%;
+}
+
+.section3-left > h4 {
+  padding: 80px 0 0 70px;
+  font-size: 50px;
+  font-weight: 300;
+}
+.left-p1 {
+  margin: 30px 0 0 70px;
+  font-size: 25px;
+  font-weight: 300;
+}
+.left-p2 {
+  margin: 20px 0 0 70px;
+  font-size: 25px;
+  font-weight: 300;
+}
+.section3-left>h5{
+    margin: 110px 0 0 70px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.section3-left>ol{
+    margin: 20px 0 0 70px;
+    list-style: none;
+    font-weight: 300;
+}
+
+.section3-right > img {
+  width: 500px;
+  height: 600px;
+  margin: 90px 0 0 100px;
+  border-radius: 0 110px 0 0;
+}
+
+
+.footer{
+  height: 100vh;
+  background:linear-gradient(45deg, rgb(125, 206, 232), rgb(226, 233, 235));
+  display: flex;
+}
+.foot-left{
+  width: 50%;
+}
+.foot-left>h5{
+  padding: 180px 0 0 80px;
+  font-size: 45px;
+  font-weight: 300;
+}
+
+
+.box-top{
+  display: flex;
+  
+}
+.ol-p{
+  font-size: 25px;
+  font-weight: 600;
+  padding: 180px 0 0 0;
+}
+
+.ol-left{
+  font-size: 28px;
+  margin: 50px 0 0 0;
+  list-style:none;
+  font-weight: 300;
+}
+
+
+.ol-p1{
+  font-size: 25px;
+  font-weight: 600;
+  padding: 180px 0 0 150px;
+}
+.ol-right{
+  font-size: 28px;
+  margin: 50px 0 0 150px;
+  list-style:none;
+  font-weight: 300;
+}
+
+.email{
+  padding: 100px 0 0 0;
+  font-size: 23px;
+  font-weight: 500;
+}
